@@ -1,0 +1,61 @@
+# Goal
+
+Build a premium, responsive, bilingual (English + Telugu) website for S. Mallareddy, Sarpanch of Narsimhunipeta Village. The website will highlight development works, welfare activities, and provide contact/grievance mechanisms. The key focus is on a premium look (Refined Minimalism), high performance on slow networks, and avoiding heavy JavaScript libraries.
+
+## User Review Required
+
+> [!IMPORTANT]
+> - I will be using **Vite with Vanilla HTML/JS/CSS**. This ensures no heavy framework (like React or Next.js) is shipped to the user, strictly adhering to your requirement of "Minimal JS" and "Fast load on slow networks" while still giving us a modern build tool to compress assets.
+> - For bilingual support, I will implement a custom, lightweight vanilla JS function that swaps text based on a `translations.json` dictionary.
+> - I will generate high-quality placeholder images for the Hero, Development Works, and Gallery sections to ensure the design looks complete and premium.
+
+## Open Questions
+
+> [!NOTE]
+> 1. Do you have specific images you want me to use later, or should I generate all required placeholder images using an AI image generator?
+> 2. Are there specific WhatsApp numbers or Phone numbers to use for the Contact section, or should I use placeholders (e.g., +91 99999 99999)?
+
+## Proposed Changes
+
+### Project Setup
+- **Initialize Vite**: Run `npx create-vite` to set up a vanilla web project in `c:\projects`.
+
+### Core Application
+- **`index.html`**: The single-page application structure. Will contain:
+  - Sticky Header with navigation and language toggle.
+  - Hero Section (Text + Image).
+  - Trust/Impact Stats (Numbers & Icons).
+  - Development Works Grid.
+  - Welfare Activities.
+  - Gallery (with simple lightweight vanilla lightbox).
+  - Contact & Grievance Forms.
+  - Floating WhatsApp Button.
+
+- **`style.css`**:
+  - CSS Variables for the color system (Primary: #2E7D32, Background: #FFFFFF, etc.).
+  - Typography setup importing `Inter` and `Noto Sans Telugu` from Google Fonts.
+  - Responsive layouts (Mobile-first, Flexbox/Grid).
+  - Subtle micro-interactions (hover scales, light shadows).
+
+- **`src/main.js`**:
+  - Sticky header scroll effect.
+  - Mobile menu toggle.
+  - Lightweight scroll-into-view animations (using `IntersectionObserver`).
+  - Lightbox logic for the gallery.
+
+- **`src/i18n.js` & `src/translations.js`**:
+  - A small script that stores the English and Telugu text strings.
+  - Replaces text in elements marked with `data-i18n` attributes when the language toggle is clicked.
+  - Updates the body font family when switching to Telugu.
+
+## Verification Plan
+
+### Automated Tests
+- Run `npm run build` to verify that Vite bundles successfully without errors.
+- Ensure the bundle size is extremely small (target < 100KB JS).
+
+### Manual Verification
+- Use the built-in browser subagent to open the development server.
+- Verify the sticky header, smooth scrolling, and translations toggle.
+- Check mobile layout responsiveness.
+- Verify aesthetic quality against the "Premium but clean" requirement.

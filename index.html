@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S. Mallareddy – Sarpanch, Narsimhunipeta Village</title>
+    <meta name="description" content="Official website of S. Mallareddy, Sarpanch of Narsimhunipeta Village, Telangana. View development works, welfare activities, announcements, and submit grievances.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+
+    <!-- Top Info Bar -->
+    <div class="top-bar">
+      <div class="container top-bar-inner">
+        <div class="top-bar-left">
+          <img src="/src/assets/client_photo.jpg" alt="S. Mallareddy" class="top-bar-photo">
+          <span data-i18n="topbar.location">📍 Narsimhunipeta Village, Telangana</span>
+        </div>
+        <span>📞 +91 9948760364</span>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container header-inner">
+        <a href="#" class="logo" data-i18n="header.logo">S. Mallareddy</a>
+
+        <button class="mobile-menu-btn" aria-label="Toggle menu" id="menuBtn">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav" id="mainNav">
+          <a href="#home" data-i18n="nav.home">Home</a>
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#works" data-i18n="nav.works">Development Works</a>
+          <a href="#activities" data-i18n="nav.activities">Welfare Activities</a>
+          <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <button class="lang-btn" id="langBtn">EN | తెలుగు</button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero reveal" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <div class="hero-eyebrow">🏛 Official Sarpanch Website</div>
+          <h1 data-i18n="hero.title">S. Mallareddy</h1>
+          <p class="hero-role" data-i18n="hero.subtitle">Sarpanch – Narsimhunipeta</p>
+          <p class="hero-desc" data-i18n="hero.tagline">Committed to the development and welfare of Narsimhunipeta village.</p>
+          <div class="hero-actions">
+            <a href="#works" class="btn btn-primary" data-i18n="hero.btnPrimary">View Development Works</a>
+            <a href="#contact" class="btn btn-secondary" data-i18n="hero.btnSecondary">Contact</a>
+          </div>
+          <p class="hero-hint">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Click any button above to explore or contact directly
+          </p>
+        </div>
+        <div class="hero-photo">
+          <img src="/src/assets/client_photo.jpg" alt="S. Mallareddy, Sarpanch" id="heroImg">
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Line -->
+    <div class="trust-line">
+      <div class="container">
+        <strong data-i18n="trust.line">✅ 50+ Development Works Completed for Narsimhunipeta Village</strong>
+      </div>
+    </div>
+
+    <!-- Village at a Glance Strip -->
+    <div class="village-strip">
+      <div class="container village-strip-inner">
+        <div class="village-stat">
+          <span class="village-stat-num">650+</span>
+          <span class="village-stat-label">Population</span>
+        </div>
+        <div class="village-stat">
+          <span class="village-stat-num">250+</span>
+          <span class="village-stat-label">Households</span>
+        </div>
+        <div class="village-stat">
+          <span class="village-stat-num">4</span>
+          <span class="village-stat-label">Wards</span>
+        </div>
+        <div class="village-stat">
+          <span class="village-stat-num">100%</span>
+          <span class="village-stat-label">Water Coverage</span>
+        </div>
+        <div class="village-stat">
+          <span class="village-stat-num">100%</span>
+          <span class="village-stat-label">Electrification</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Announcements / Village Updates (MAIN FEATURE) -->
+    <section class="section announcements-section reveal" id="about">
+      <div class="container">
+        <h2 class="section-title" data-i18n="announce.title">📢 Village Updates & Announcements</h2>
+        <p class="section-desc" data-i18n="announce.subtitle">Latest development updates and upcoming programs in Narsimhunipeta.</p>
+
+        <div class="announce-grid">
+          <div class="announce-card announce-completed">
+            <img src="/src/assets/announce_roads.png" alt="CC Roads" class="announce-img" loading="lazy">
+            <div class="announce-body">
+              <span class="announce-status status-done" data-i18n="status.completed">Completed</span>
+              <h3 data-i18n="announce.1.title">CC Roads Completed</h3>
+              <p data-i18n="announce.1.desc">Concrete roads have been laid across all main streets and internal roads of the village.</p>
+            </div>
+          </div>
+          <div class="announce-card announce-completed">
+            <img src="/src/assets/announce_lights.png" alt="Street Lights" class="announce-img" loading="lazy">
+            <div class="announce-body">
+              <span class="announce-status status-done" data-i18n="status.completed">Completed</span>
+              <h3 data-i18n="announce.2.title">Street Lights Project Completed</h3>
+              <p data-i18n="announce.2.desc">Modern street lights installed throughout the village for safety and visibility at night.</p>
+            </div>
+          </div>
+          <div class="announce-card announce-completed">
+            <img src="/src/assets/announce_borewell.png" alt="Borewells" class="announce-img" loading="lazy">
+            <div class="announce-body">
+              <span class="announce-status status-done" data-i18n="status.completed">Completed</span>
+              <h3 data-i18n="announce.3.title">Borewells Installed on Streets</h3>
+              <p data-i18n="announce.3.desc">Borewells drilled and installed on key streets to ensure water access for all residents.</p>
+            </div>
+          </div>
+          <div class="announce-card announce-completed">
+            <img src="/src/assets/announce_water.png" alt="Drinking Water" class="announce-img" loading="lazy">
+            <div class="announce-body">
+              <span class="announce-status status-done" data-i18n="status.completed">Completed</span>
+              <h3 data-i18n="announce.4.title">Drinking Water Problem Resolved</h3>
+              <p data-i18n="announce.4.desc">Safe and clean drinking water supply restored with new pipelines and purification systems.</p>
+            </div>
+          </div>
+          <div class="announce-card announce-upcoming">
+            <img src="/src/assets/announce_medical.png" alt="Medical Camp" class="announce-img" loading="lazy">
+            <div class="announce-body">
+              <span class="announce-status status-upcoming" data-i18n="status.upcoming">Upcoming</span>
+              <h3 data-i18n="announce.5.title">Medical Camp</h3>
+              <p data-i18n="announce.5.desc">Free health checkup camp for all villagers will be organized soon. Stay tuned for dates.</p>
+            </div>
+          </div>
+          <div class="announce-card announce-upcoming">
+            <img src="/src/assets/announce_cctv.png" alt="CC Cameras" class="announce-img" loading="lazy">
+            <div class="announce-body">
+              <span class="announce-status status-upcoming" data-i18n="status.upcoming">Upcoming</span>
+              <h3 data-i18n="announce.6.title">CC Cameras Project</h3>
+              <p data-i18n="announce.6.desc">CCTV cameras will be installed at key locations for village security and safety.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Statistics -->
+    <section class="highlights">
+      <div class="container highlights-row">
+        <div class="highlight-item">
+          <strong class="highlight-num" data-target="50">0</strong>
+          <span data-i18n="impact.works">Development Works</span>
+        </div>
+        <div class="highlight-item">
+          <strong class="highlight-num" data-target="100">0</strong>
+          <span data-i18n="impact.families">Families Benefited</span>
+        </div>
+        <div class="highlight-item">
+          <strong class="highlight-num" data-target="5">0</strong>
+          <span data-i18n="impact.years">Years of Service</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Village Video Section -->
+    <section class="video-section reveal" id="video">
+      <div class="container">
+        <div class="section-header" style="text-align:center;">
+          <span class="section-label" data-i18n="video.label">🎬 Village Progress</span>
+          <h2 class="section-title" data-i18n="video.title">Watch Our Village Transform</h2>
+          <p class="section-desc" style="margin:0 auto 32px; text-align:center;" data-i18n="video.desc">See the real development works and welfare programs that have changed Narsimhunipeta.</p>
+        </div>
+        <div class="video-wrapper">
+          <video
+            id="villageVideo"
+            class="village-video"
+            poster="/src/assets/testimonial_bg.png"
+            muted
+            playsinline
+            loop
+            preload="metadata"
+          >
+            <source src="/src/assets/village_video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+          <div class="video-overlay" id="videoOverlay">
+            <button class="video-play-btn" id="videoPlayBtn" aria-label="Play video">
+              <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <p class="video-overlay-text" data-i18n="video.overlayText">Click to play village development video</p>
+          </div>
+        </div>
+        <p class="video-hint" data-i18n="video.hint">🎥 1-minute video showcasing all completed development works in Narsimhunipeta</p>
+      </div>
+    </section>
+
+    <!-- Development Works -->
+    <section class="section section-alt reveal" id="works">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">🏗 Infrastructure</span>
+          <h2 class="section-title" data-i18n="works.title">Development Works</h2>
+          <p class="section-desc" data-i18n="works.subtitle">Infrastructure projects completed and underway in Narsimhunipeta.</p>
+        </div>
+
+        <div class="works-grid">
+          <article class="work-card">
+            <img src="/src/assets/work_1.jpg" alt="CC Roads" loading="lazy">
+            <div class="work-body">
+              <div class="work-top">
+                <h3 data-i18n="works.1.title">CC Roads Construction</h3>
+                <span class="badge badge-green" data-i18n="status.completed">Completed</span>
+              </div>
+              <p data-i18n="works.1.desc">Constructed concrete roads connecting all main areas and internal streets of the village.</p>
+            </div>
+          </article>
+          <article class="work-card">
+            <img src="/src/assets/work_2.jpg" alt="Borewells" loading="lazy">
+            <div class="work-body">
+              <div class="work-top">
+                <h3 data-i18n="works.2.title">Borewell Installation</h3>
+                <span class="badge badge-green" data-i18n="status.completed">Completed</span>
+              </div>
+              <p data-i18n="works.2.desc">Borewells installed on streets for reliable water access to all village residents.</p>
+            </div>
+          </article>
+          <article class="work-card">
+            <img src="/src/assets/work_3.jpg" alt="Street Lights" loading="lazy">
+            <div class="work-body">
+              <div class="work-top">
+                <h3 data-i18n="works.3.title">Street Lights Installation</h3>
+                <span class="badge badge-green" data-i18n="status.completed">Completed</span>
+              </div>
+              <p data-i18n="works.3.desc">Modern street lights installed throughout the village for nighttime safety and visibility.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welfare Activities -->
+    <section class="section reveal" id="activities">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">🤝 Community</span>
+          <h2 class="section-title" data-i18n="activities.title">Welfare Activities</h2>
+          <p class="section-desc" data-i18n="activities.subtitle">Community support and welfare programs for villagers.</p>
+        </div>
+
+        <div class="activity-list">
+          <div class="activity-row">
+            <div class="activity-date">2026</div>
+            <div class="activity-body">
+              <h3 data-i18n="activities.1.title">Free Health Camp (Upcoming)</h3>
+              <p data-i18n="activities.1.desc">Free medical checkup camp for all villagers. Dates to be announced soon.</p>
+            </div>
+          </div>
+          <div class="activity-row">
+            <div class="activity-date">2025</div>
+            <div class="activity-body">
+              <h3 data-i18n="activities.2.title">Drinking Water Supply Restored</h3>
+              <p data-i18n="activities.2.desc">Clean drinking water supply ensured for every household in the village.</p>
+            </div>
+          </div>
+          <div class="activity-row">
+            <div class="activity-date">2025</div>
+            <div class="activity-body">
+              <h3 data-i18n="activities.3.title">Village Clean-up Drive</h3>
+              <p data-i18n="activities.3.desc">Sanitation drive conducted across all wards with the support of village volunteers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section section-alt reveal" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">📸 Photos</span>
+          <h2 class="section-title" data-i18n="gallery.title">Gallery</h2>
+        </div>
+        <div class="gallery-grid">
+          <img src="/src/assets/announce_roads.png" alt="Village Roads" class="gallery-img" loading="lazy">
+          <img src="/src/assets/announce_lights.png" alt="Street Lights" class="gallery-img" loading="lazy">
+          <img src="/src/assets/announce_borewell.png" alt="Borewell" class="gallery-img" loading="lazy">
+          <img src="/src/assets/announce_water.png" alt="Drinking Water" class="gallery-img" loading="lazy">
+        </div>
+        <p class="gallery-hint">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          Click on any image to view it full size
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact & Grievance -->
+    <section class="section reveal" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2 class="section-title" data-i18n="contact.title">Contact Information</h2>
+          <p class="contact-msg" data-i18n="contact.msg">Feel free to contact for any village-related issues or support.</p>
+
+          <dl class="contact-dl">
+            <dt data-i18n="contact.addressLabel">Address</dt>
+            <dd data-i18n="contact.address">Narsimhunipeta, Telangana</dd>
+            <dt data-i18n="contact.phoneLabel">Phone</dt>
+            <dd>📞 +91 9948760364</dd>
+            <dt>WhatsApp</dt>
+            <dd data-i18n="contact.waMsg">💬 Available 24/7</dd>
+          </dl>
+
+          <a href="https://wa.me/919948760364" class="btn btn-whatsapp" target="_blank">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            <span data-i18n="contact.whatsapp">Chat on WhatsApp</span>
+          </a>
+        </div>
+
+        <div class="grievance-box">
+          <h3 data-i18n="form.title">Submit a Grievance</h3>
+          <p class="form-hint">Fill in the details below and we will respond within 24 hours.</p>
+          <form id="grievanceForm">
+            <div class="field">
+              <label for="fname" data-i18n="form.name">Name</label>
+              <input type="text" id="fname" placeholder="Enter your full name" required>
+            </div>
+            <div class="field">
+              <label for="fphone" data-i18n="form.phone">Phone</label>
+              <input type="tel" id="fphone" placeholder="e.g. +91 9XXXXXXXXX" required>
+            </div>
+            <div class="field">
+              <label for="fissue" data-i18n="form.issue">Issue Type</label>
+              <select id="fissue" required>
+                <option value="" data-i18n="form.issueOptions.select">Select Issue</option>
+                <option value="water" data-i18n="form.issueOptions.water">Water Supply</option>
+                <option value="roads" data-i18n="form.issueOptions.roads">Roads</option>
+                <option value="electricity" data-i18n="form.issueOptions.electricity">Electricity / Lights</option>
+                <option value="sanitation" data-i18n="form.issueOptions.sanitation">Sanitation</option>
+                <option value="other" data-i18n="form.issueOptions.other">Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="fdesc" data-i18n="form.desc">Message</label>
+              <textarea id="fdesc" rows="4" placeholder="Describe your issue or request clearly..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" data-i18n="form.submit">Submit Grievance</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section reveal">
+      <div class="testimonials-bg" style="background-image: url('/src/assets/testimonial_bg.png');"></div>
+      <div class="testimonials-overlay"></div>
+      <div class="container testimonials-inner">
+        <div class="section-header" style="text-align:center; margin-bottom:48px;">
+          <span class="section-label" style="color:#86efac;" data-i18n="testimonials.label">💬 Community Voice</span>
+          <h2 class="section-title" style="color:#fff;" data-i18n="testimonials.title">What Villagers Say</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-quote" data-i18n="testimonials.1.quote">"The new CC roads have made it so much easier to walk to the market. Our children can ride cycles safely now. Thank you Sarpanch garu."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">R</div>
+              <div>
+                <strong data-i18n="testimonials.1.name">Ramaiah K.</strong>
+                <span data-i18n="testimonials.1.role">Ward 1 Resident</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote" data-i18n="testimonials.2.quote">"Before the borewells, we struggled for water every day. Now we have clean water right outside our street. This is a big change for our family."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">L</div>
+              <div>
+                <strong data-i18n="testimonials.2.name">Lakshmi D.</strong>
+                <span data-i18n="testimonials.2.role">Ward 2 Resident</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-quote" data-i18n="testimonials.3.quote">"Street lights changed our village at night. Women and elderly feel much safer now. This is what real leadership looks like."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">V</div>
+              <div>
+                <strong data-i18n="testimonials.3.name">Venkata Rao M.</strong>
+                <span data-i18n="testimonials.3.role">Ward 3 Elder</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-col">
+          <p class="footer-logo">S. Mallareddy</p>
+          <p class="footer-tagline">Sarpanch, Narsimhunipeta Village, Telangana</p>
+          <p class="footer-mission">"Committed to transparent governance, inclusive development, and the welfare of every family in our village."</p>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-title">Quick Links</p>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Announcements</a></li>
+            <li><a href="#works">Development Works</a></li>
+            <li><a href="#activities">Welfare Activities</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-title">Contact Us</p>
+          <p class="footer-contact-item">📍 Narsimhunipeta, Telangana</p>
+          <p class="footer-contact-item">📞 +91 9948760364</p>
+          <p class="footer-contact-item">💬 WhatsApp: Available 24/7</p>
+          <a href="https://wa.me/919948760364" class="footer-wa-btn" target="_blank">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© 2026 Gram Panchayat, Narsimhunipeta, Telangana. All rights reserved.</p>
+          <p>Website managed by the office of S. Mallareddy, Sarpanch.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" aria-label="Close">&times;</button>
+      <img src="" alt="" class="lightbox-img">
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919948760364" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+    </a>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
